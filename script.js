@@ -1,24 +1,24 @@
-    const faqboxes = document.querySelectorAll('.faqbox');
-    
-    faqboxes.forEach(box => {
-        const answer = box.querySelector('.ans');
-        const svg = box.querySelector("svg");
-        answer.style.display = 'none';
+const faqboxes = document.querySelectorAll('.faqbox');
 
-        box.addEventListener('click', () => {
-            const isActive = box.classList.contains('active');
+faqboxes.forEach(box => {
+    const answer = box.querySelector('.ans');
+    const svg = box.querySelector("svg");
+    answer.style.display = 'none';
 
-            faqboxes.forEach(b=> {
-                b.classList.remove('active');
-                b.querySelector(".ans").style.display = "none";
-                b.querySelector('svg').style.transform = 'rotate(0deg)';
-            });
+    box.addEventListener('click', () => {
+        const isActive = box.classList.contains('active');
 
-            if (!isActive) {
-                box.classList.add('active');
-                answer.style.display = 'block';
-                svg.style.transform = 'rotate(45deg)';
-            }
+        faqboxes.forEach(b => {
+            b.classList.remove('active');
+            b.querySelector(".ans").style.display = "none";
+            b.querySelector('svg').style.transform = 'rotate(0deg)';
         });
+
+        if (!isActive) {
+            box.classList.add('active');
+            answer.style.display = 'block';
+            svg.style.transform = 'rotate(45deg)';
+        }
     });
+});
 
