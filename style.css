@@ -149,12 +149,10 @@ height: 7px;
     flex-wrap: wrap;
 }
 .sh h2 {
-    margin-top: 25px;
+   margin-top: 40px;
     color: white;
     font-size: 23px;
-    padding: 0;
     margin-left: 90px;
-    margin: 0.80;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 .card1,
