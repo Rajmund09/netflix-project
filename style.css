@@ -350,11 +350,10 @@ p {
     bottom: 0%;
 }
 .faq h2 {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+   margin-top: 40px;
     color: white;
-    font-size: 2rem;
+    font-size: 23px;
+    margin-left: 90px;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 .faqbox {
