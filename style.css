@@ -81,7 +81,9 @@ nav button {
     font-weight: 400;
     text-align: center;
 }
-
+input{
+    color: aliceblue;
+}
 .seperation {
     height: 7px;
     background-color: gray;
