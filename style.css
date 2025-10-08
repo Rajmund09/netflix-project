@@ -619,7 +619,7 @@ footer {
     /* --- Hero Section --- */
     .hero {
         gap: 18px;
-        /* Reduce space between text lines */
+       
         padding: 0 5vw;
         /* Use viewport width for padding */
     }
