@@ -565,9 +565,6 @@ footer {
     justify-content: space-around;
 }
 
-/* ========================================= */
-/* ====== IMPROVED Media Queries ========= */
-/* ========================================= */
 
 /* == For Tablets (Screens less than 960px wide) == */
 @media screen and (max-width: 960px) {
