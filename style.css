@@ -621,7 +621,6 @@ footer {
         gap: 18px;
        
         padding: 0 5vw;
-        /* Use viewport width for padding */
     }
 
     .hero span:nth-child(1) {
